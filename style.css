@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  height: 10vh;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.heading h2{
+    color: rgb(237, 29, 36);
+    margin-right: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.seachBar{
+    width: 300px;
+    margin-right: 100px;
+}
+
+.seachBar input{
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    height: 35px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+
+main{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 80vh;
+    /* height: ; */
+    justify-content: center;
+    align-items: center;
+}
+
+.upper{
+    padding: 20px;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.upper img{
+    position: absolute;
+    z-index: 1;
+    height: 250px;
+    left: 10px;
+    top: -20px;
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    color:white
+}
+
+.charactor_details{
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    font-stretch: expanded;
+    text-align: right;
+    z-index: 2;
+}
+
+.charactor_details p{
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.captain-america {
+    background: linear-gradient(to top left, #7b2ebc, #3299f1);
+}
+
+.iron-man {
+    background: linear-gradient(to top left, #f7851e, #e3493f);
+}
+
+.black-widow {
+    background: linear-gradient(to right bottom, #7b2ebc, #3299f1);
+}
+
+.spider-man {
+    background: linear-gradient(to top left,#5a82d1 , #d8363a);
+}
+
+.sppdy img{
+    left: -10px;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
